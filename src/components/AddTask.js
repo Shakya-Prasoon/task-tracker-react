@@ -20,7 +20,7 @@ const AddTask = ({onAdd}) => {
         setReminder(false)
     }
     return (
-        <form className='add-form'onSubmit={onSubmit} >
+        <form className='add-form' onSubmit={onSubmit} >
             <div className='form-control'>
                 <label>Task</label>
                 <input type='test' placeholder='Add Task'
